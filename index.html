@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="./styles.css">
+    
+</head>
+<body>
+
+    
+
+    <h1 id="heading">Stopwatch</h1>
+    
+    <div id="container">
+        
+        <div id="timer_div">
+
+            <!-- this will stay 3 span and will become 4 when start button is clicked. -->
+            <div id="time"><span id="minutes">00</span>:<span id="seconds">00</span>:<span id="miliSeconds">00</span></div>
+
+        </div>
+
+        <div id="buttons">
+            <button id="start"><i class="fa-solid fa-play"></i>
+            </button>
+
+            <button id="pause"><i class="fa-solid fa-pause"></i></button>
+            
+            <button id="reset" type="reset"><i class="fa-solid fa-stop"></i></button>
+        </div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/2c44b97502.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
